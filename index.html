@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Latihan Javascript #1 </title>
 </head>
+
 <body>
   <input id="inputKode" type="text">
   <button onclick="call()">Telepon Saya</button>
   <p id="test"></p>
+  <script>
+    function call() {
+      // hasil = window.location.href = "tel:+6281234567890";
+      // tel = document.getElementById("inputKode").value;
+      window.location.href = 'tel:+6212121212';
+      // document.getElementById("test").innerHTML = tel;
+    }
+  </script>
 </body>
+
 </html>
